@@ -36,3 +36,12 @@ python manage.py runserver
 ```
 
 ## Once the server is hosted, visit http://127.0.0.1:8000/ to access the app.
+
+
+## Watch this video to see how it's done!
+
+https://github.com/user-attachments/assets/cc45c520-d022-4583-8391-58e697a086ab
+
+## Sample Output
+
+![oututut](https://github.com/user-attachments/assets/6c41a75d-dfaa-4779-a64c-186a40d044ae)
