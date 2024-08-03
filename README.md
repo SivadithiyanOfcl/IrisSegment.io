@@ -12,9 +12,17 @@ git clone https://github.com/SivadithiyanOfcl/IrisSegment.io.git
 ```
 pip install -r requirements.txt
 ```
+Go to my kaggle page and download the [this model](https://www.kaggle.com/models/sivadithiyan/irisunet) and put it inside the following location in your device:
 
-You need to make one last adjustment before running the code: Locate the utils.py file under the EDMMGC\myapp and replace the following line of code
+```
+C?D?E:\your base directory here\IrisSegmentIO\Irisapp\static\models
+```
 
+You need to make one last adjustment before running the code: Locate the utils.py file under the IrisSegmentIO/Irisapp and replace the following line of code
+```
+model_path = os.path.join(settings.BASE_DIR, 'Irisapp', 'static', 'models', 'model.h5')
+```
+Make sure your model name is correct and the base directory is setup as well.
 
 Once you have downloaded Django, navigate to the cloned repo directory and run the following:
 
