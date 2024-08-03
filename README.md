@@ -1,5 +1,7 @@
 # IrisSegment.io
 
+IrisSegment.io is a web-based platform designed for processing images of the human eye's iris 👁️. Users can upload photos and images focused on the iris region 📸, and the website will process these images to generate relatively precise masks highlighting the iris area 🕵️‍♂️. These masks are valuable for various applications in iris segmentation and analysis 🔍, enabling detailed study and processing of the iris region. Whether for research, medical diagnostics, or other applications, IrisSegment.io provides an efficient tool for extracting and analyzing the iris region from images 💻.
+
 # Setup
 To get this repository, run the following command inside your git-enabled terminal:
 
@@ -12,7 +14,7 @@ git clone https://github.com/SivadithiyanOfcl/IrisSegment.io.git
 ```
 pip install -r requirements.txt
 ```
-Go to my kaggle page and download the [this model](https://www.kaggle.com/models/sivadithiyan/irisunet) and put it inside the following location in your device:
+Go to my kaggle page and download [this model](https://www.kaggle.com/models/sivadithiyan/irisunet) and put it inside the following location in your device:
 
 ```
 C?D?E:\your base directory here\IrisSegmentIO\Irisapp\static\models
